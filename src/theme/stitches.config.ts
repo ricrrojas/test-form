@@ -1,0 +1,110 @@
+import { createStitches, createTheme } from '@stitches/react'
+
+export const { styled } = createStitches({
+  theme: {
+    colors: {
+      black: 'rgba(19, 19, 21, 1)',
+      white: 'rgba(255, 255, 255, 1)',
+      tableHeaderBgColor: '#dddddd',
+      tableRowBgColor: '#e9e9e9',
+      lightColor: '#000000',
+      bgPage: 'white',
+    },    
+    fonts: {
+      sans: 'Inter, sans-serif',
+    },
+    fontSizes: {
+      1: '12px',
+      2: '14px',
+      3: '16px',
+      4: '20px',
+      5: '24px',
+      6: '32px',
+    },
+    space: {
+      1: '4px',
+      2: '8px',
+      3: '16px',
+      4: '32px',
+      5: '64px',
+      6: '128px',
+    },
+    sizes: {
+      1: '4px',
+      2: '8px',
+      3: '16px',
+      4: '32px',
+      5: '64px',
+      6: '128px',
+    },
+    radii: {
+      1: '2px',
+      2: '4px',
+      3: '8px',
+      round: '9999px',
+    },
+    fontWeights: {},
+    lineHeights: {},
+    letterSpacings: {},
+    borderWidths: {},
+    borderStyles: {},
+    shadows: {},
+    zIndices: {},
+    transitions: {},
+  },
+  media: {
+    bp1: '(max-width: 640px)',
+  },
+})
+
+export const darkTheme = createTheme({
+  colors: {
+    black: 'rgba(19, 19, 21, 1)',
+    white: 'rgba(255, 255, 255, 1)',
+    tableHeaderBgColor: '#ea6153',
+    tableRowBgColor: '#e9e9e9',
+    lightColor: '#ffffff',
+    bgPage: '#2b2b2b',
+  },
+  fonts: {
+    sans: 'Inter, sans-serif',
+  },
+  fontSizes: {
+    1: '12px',
+    2: '14px',
+    3: '16px',
+    4: '20px',
+    5: '24px',
+    6: '32px',
+  },
+  space: {
+    1: '4px',
+    2: '8px',
+    3: '16px',
+    4: '32px',
+    5: '64px',
+    6: '128px',
+  },
+  sizes: {
+    1: '4px',
+    2: '8px',
+    3: '16px',
+    4: '32px',
+    5: '64px',
+    6: '128px',
+  },
+  radii: {
+    1: '2px',
+    2: '4px',
+    3: '8px',
+    round: '9999px',
+  },
+  fontWeights: {},
+  lineHeights: {},
+  letterSpacings: {},
+  borderWidths: {},
+  borderStyles: {},
+  shadows: {},
+  zIndices: {},
+  transitions: {},
+})
