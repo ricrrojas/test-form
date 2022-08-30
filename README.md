@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 <!-- Jest Coverage Comment:Begin -->
+$DATA
 <!-- Jest Coverage Comment:End -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
