@@ -31,7 +31,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           DATA=`echo '${{ steps.coverageComment.outputs.summaryHtml }}' | tr '\n' "\\n"`
-          sed -i '/<!-- Jest Coverage Comment:Begin -->/,/<!-- Jest Coverage Comment:End -->/c\<!-- Jest Coverage Comment:Begin -->\n\$DATA\n<!-- Jest Coverage Comment:End -->' ./README.md
+          sed -i '/<!-- Jest Coverage Comment:Begin -->/,/<!-- Jest Coverage Comment:End -->/c\<!-- Jest Coverage Comment:Begin -->\n\${DATA}\n<!-- Jest Coverage Comment:End -->' ./README.md
 
       - name: Commit & Push changes to Readme
         if: ${{ github.ref == 'refs/heads/main' }}
